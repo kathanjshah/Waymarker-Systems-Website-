@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Georgia;
+    font-size: 20;
+}
+.header{
+    background-color: #101010;
+    height: 80px;;
+    width: 100%;
+    color: white;
+    display: block;
+}
+.inner_header{
+    width: 1300px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Monrserrat';
+    font-size: 32px;
+    font-weight: 200;
+
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+.navigation{
+    float: right; 
+    height: 100%;
+    
+}
+.navigation button{
+    height: 100%;
+    display: table-cell;
+    float: left;
+    padding: 0px 20px;
+    background-color: transparent;
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;   
+}
+
