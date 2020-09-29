@@ -16,7 +16,7 @@ body{
     display: block;
 }
 .inner_header{
-    width: 1300px;
+    width: 70%;
     height: 100%;
     display: block;
     margin: 0 auto;
@@ -58,4 +58,40 @@ body{
 	cursor: pointer;
 	outline: inherit;   
 }
+.navigation button:hover{
+    background-color: white;
+    color: black;
+}
+.brand_container{
+    width: 70%;
+    
+    display: block;
+    margin: 0 auto;
+    border: black;
+}
+.Our_Brands h1{
+    
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Monrserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+.Our_Brands{
+    text-align: center;
+}
 
+.vectus{
+    margin-bottom: 15px;
+}
+.fs{
+    margin-bottom: 45px;
+    padding-right: 50px;
+}
+.Our_Brands hr{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    
+}
