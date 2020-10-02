@@ -9,7 +9,7 @@ body{
     font-size: 20;
 }
 .header{
-    background-color: #1f1e1e;
+    background-color: Black;
     height: 80px;;
     width: 100%;
     color: white;
@@ -97,14 +97,29 @@ body{
 }
 .pictures{
     width: 100%;
-    height: 700px;
-    color: #838383;
-    background-image: url("./images/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    height: 200px;
+    color: White;
     display: block;
     margin: 0 auto;
+}
+.absolute{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;
+    vertical-align: middle;
+    font-family: 'Monrserrat';
+    font-size: 45;
+    font-weight: 300;
+
+
+}
+.pictures a:hover{
+    color: grey;
+    vertical-align: middle;
+    font-family: 'Monrserrat';
+    font-size: 45;
+    font-weight: 500;
+
 }
 .waymarker{
     
