@@ -73,12 +73,12 @@ body{
 .Our_Brands h1{
     
     color: black;
-    background-color: gray;
+    
     text-align: center;
     vertical-align: middle;
     font-family: 'Monrserrat';
-    font-size: 32px;
-    font-weight: 200;
+    
+    font-weight: 500;
 }
 .Our_Brands{
     text-align: center;
