@@ -7,9 +7,10 @@
 body{
     font-family: Georgia;
     font-size: 20;
+    
 }
 .header{
-    background-color: Black;
+    background-color: #1f1e1e;
     height: 80px;;
     width: 100%;
     color: white;
@@ -59,8 +60,8 @@ body{
 	outline: inherit;   
 }
 .navigation button:hover{
-    background-color: white;
-    color: black;
+    
+    color:  gray;
 }
 .brand_container{
     width: 70%;
@@ -72,6 +73,7 @@ body{
 .Our_Brands h1{
     
     color: black;
+    background-color: gray;
     text-align: center;
     vertical-align: middle;
     font-family: 'Monrserrat';
@@ -80,6 +82,7 @@ body{
 }
 .Our_Brands{
     text-align: center;
+    background-color: white;
 }
 
 .vectus{
@@ -95,41 +98,79 @@ body{
     margin: 0 auto;
     
 }
-.pictures{
-    width: 100%;
-    height: 200px;
-    color: White;
-    display: block;
+.container{
+    max-width: 100%;
     margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 0px;
+
+
 }
-.absolute{
+.parallax{
+    background: url('./images/background3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+.industrial h1{
     position: absolute;
-    margin-top: 15%;
-    margin-left: 15%;
-    vertical-align: middle;
-    font-family: 'Monrserrat';
-    font-size: 45;
-    font-weight: 300;
-
-
-}
-.pictures a:hover{
-    color: grey;
-    vertical-align: middle;
-    font-family: 'Monrserrat';
-    font-size: 45;
-    font-weight: 500;
-
-}
-.waymarker{
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%; 
-}
-.text_over_image{
     color: white;
-    position: relative;
-    
+    margin-top: 5%;
+    margin-left: 15%;
+    font-family: Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 103px;
 }
+.industrial h1:hover{
+    position: absolute;
+    opacity: 0.5;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-family: Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 103px;
+}
+.footer{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #1f1e1e;
+    height: 400px;
+    font-size: 24px;
+    padding: 0px;
+}
+#map{
+    width: 30%;
+    height: 80%;
+    background-color: grey;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    background: url("./images/map2.PNG");    
+}
+#address{
+    color: gray;
+    font-family: Times;
+
+}
+.container2{
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 0px;
+
+
+}
+.parallax2{
+    background: url('./images/background2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+
+
